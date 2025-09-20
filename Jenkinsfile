@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourusername/task-manager.git'
+                git 'https://github.com/navaneethan0312/task-manager.git'
             }
         }
         stage('Build') {
